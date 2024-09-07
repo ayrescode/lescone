@@ -1,0 +1,11 @@
+footer {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 20px 0;
+  background: $cinza;
+  @include box-shadow(0 0 0 10px $cinza);
+  p {
+    color: $bege-claro;
+    text-align: center;
+  }
+}
